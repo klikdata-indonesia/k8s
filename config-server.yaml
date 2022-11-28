@@ -18,7 +18,7 @@ spec:
       - name: config-server
         image: gcr.io/klikmedic/config-server:25e13064c5a1b0fd16ae3b1a43c2bb48d9c3a77f
         ports:
-        - containerPort: 5000
+        - containerPort: 8888
 
 ---
 
@@ -33,5 +33,5 @@ spec:
   selector:
     app: config-server
   ports:
-  - port: 5000
+  - port: 8888
     name: http
