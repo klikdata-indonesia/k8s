@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: pasien-service
-        image: gcr.io/klikmedic/pasien-service:v1.0.2
+        image: gcr.io/klikmedic/pasien-service:062878d514e439a578756bba3932a6fec8d63465
         ports:
         - containerPort: 5000
 

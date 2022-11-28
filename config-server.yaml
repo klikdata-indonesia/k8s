@@ -25,10 +25,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: config-server-svc
+  name: config-server
   labels:
     app: config-server
-    service: config-server-svc
+    service: config-server
 spec:
   selector:
     app: config-server

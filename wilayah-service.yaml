@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: wilayah-service
-        image: gcr.io/klikmedic/wilayah-service:v1.0.1
+        image: gcr.io/klikmedic/wilayah-service:ed1d68e42b4496348f4bf9fc84e1d5f461480d87
         ports:
         - containerPort: 5000
 
